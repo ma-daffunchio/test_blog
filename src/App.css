@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+a {
+  padding: 10px;
+}
+
+a,
+a:visited {
+  color: blue;
+}
+
+a.active {
+  color: red;
+}
+.posts ul {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.posts ul li {
+  padding: 10px;
+}
+
+.posts a {
+  text-decoration: none;
+}
+.app {
+  padding: 10px;
+}
+
+.app .jumbotron {
+  text-align: center;
+}
+
+.app .card {
+  margin-bottom: 10px;
+}
+
+.app .card-header {
+  color: white;
+  font-weight: bold;
+}
+.card {
+  width: 18em;
+  margin: 10px;
+}
+.posts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.container {
+  text-align: center;
+}
+.btn-group {
+  margin: 5% 0;
+}
